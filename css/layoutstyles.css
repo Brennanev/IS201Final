@@ -1,0 +1,102 @@
+
+body{
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+.common{
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(111, 114, 121);
+    position: absolute;
+    z-index: 1;
+}
+
+.header{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 113px;
+    z-index: 1;
+    background-color: rgb(80, 84, 88);
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+.leftbody{
+    top: 114px;
+    left: 0%;
+    width: 378px;
+    padding: 10px;
+    height: 160%;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.middlebody{
+    top: 114px;
+    left: 400px;
+    width: 400px;
+    padding: 10px;
+    height: 160%;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.rightbody{
+    top: 114px;
+    right: 0%;
+    width: 378px;
+    padding: 10px;
+    height: 160%;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.footer{
+    z-index: 1;
+    top: 140%;
+    height: 350px;
+    right: 0%;
+    left: 0%;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.subheader{
+    float: right;
+    font-size: 12px;
+    padding-right: 70px;
+    padding-top: 4.5px;
+    font-weight: bolder;
+}
+
+.textrow3{
+    z-index: 2;
+    bottom: 30px;
+
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rgb(221, 221, 221);
+}
+
+.list{
+    font-weight: bolder;
+    font-size: medium;
+    
+}
